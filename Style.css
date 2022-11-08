@@ -17,6 +17,8 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
+    padding-top: 5%;
 }
 
 .top-Banner {
@@ -48,4 +50,15 @@ section {
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
+}
+
+.Dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.Dream-big > .haf-width {
+    width: 50%;
+    padding-right: 5%;
 }

@@ -15,7 +15,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-conatiner {
     display: flex;
     margin-bottom: 100px;
     padding-top: 5%;
@@ -52,13 +52,48 @@ section {
     font-weight: 600;
 }
 
-.Dream-big{
+.Dream-big {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
 }
 
-.Dream-big > .haf-width {
+.Dream-big>.haf-width {
     width: 50%;
     padding-right: 5%;
+}
+
+
+.exparience {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-item {
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 3%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.exp-item h1 {
+    font-size: 40px;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
